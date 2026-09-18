@@ -1,0 +1,368 @@
+{
+  "United States": [
+    "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"
+  ],
+  "Canada": [
+    "Alberta", "British Columbia", "Manitoba", "New Brunswick", "Newfoundland and Labrador", "Northwest Territories", "Nova Scotia", "Nunavut", "Ontario", "Prince Edward Island", "Quebec", "Saskatchewan", "Yukon"
+  ],
+  "United Kingdom": [
+    "England", "Scotland", "Wales", "Northern Ireland"
+  ],
+  "Australia": [
+    "New South Wales", "Victoria", "Queensland", "South Australia", "Western Australia", "Tasmania", "Australian Capital Territory", "Northern Territory"
+  ],
+  "Germany": [
+    "Baden-Württemberg", "Bavaria", "Berlin", "Brandenburg", "Bremen", "Hamburg", "Hesse", "Lower Saxony", "Mecklenburg-Vorpommern", "North Rhine-Westphalia", "Rhineland-Palatinate", "Saarland", "Saxony", "Saxony-Anhalt", "Schleswig-Holstein", "Thuringia"
+  ],
+  "France": [
+    "Île-de-France", "Provence-Alpes-Côte d'Azur", "Nouvelle-Aquitaine", "Occitanie", "Hauts-de-France", "Grand Est", "Auvergne-Rhône-Alpes", "Pays de la Loire", "Brittany", "Normandy", "Centre-Val de Loire", "Bourgogne-Franche-Comté"
+  ],
+  "India": [
+    "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Odisha", "Punjab", "Rajasthan", "Sikkim", "Tamil Nadu", "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand", "West Bengal", "Jammu and Kashmir", "Delhi", "Puducherry", "Chandigarh", "Ladakh"
+  ],
+  "Japan": [
+    "Hokkaido", "Tohoku", "Kanto", "Chubu", "Kansai", "Chugoku", "Shikoku", "Kyushu", "Okinawa"
+  ],
+  "China": [
+    "Beijing", "Tianjin", "Hebei", "Shanxi", "Inner Mongolia", "Liaoning", "Jilin", "Heilongjiang", "Shanghai", "Jiangsu", "Zhejiang", "Anhui", "Fujian", "Jiangxi", "Shandong", "Henan", "Hubei", "Hunan", "Guangdong", "Guangxi", "Hainan", "Chongqing", "Sichuan", "Guizhou", "Yunnan", "Tibet", "Shaanxi", "Gansu", "Qinghai", "Ningxia", "Xinjiang"
+  ],
+  "Brazil": [
+    "Acre", "Alagoas", "Amapá", "Amazonas", "Bahia", "Ceará", "Distrito Federal", "Espírito Santo", "Goiás", "Maranhão", "Mato Grosso", "Mato Grosso do Sul", "Minas Gerais", "Pará", "Paraíba", "Paraná", "Pernambuco", "Piauí", "Rio de Janeiro", "Rio Grande do Norte", "Rio Grande do Sul", "Rondônia", "Roraima", "Santa Catarina", "São Paulo", "Sergipe", "Tocantins"
+  ],
+  "Mexico": [
+    "Aguascalientes", "Baja California", "Baja California Sur", "Campeche", "Chiapas", "Chihuahua", "Coahuila", "Colima", "Durango", "Guanajuato", "Guerrero", "Hidalgo", "Jalisco", "México City", "México State", "Michoacán", "Morelos", "Nayarit", "Nuevo León", "Oaxaca", "Puebla", "Querétaro", "Quintana Roo", "San Luis Potosí", "Sinaloa", "Sonora", "Tabasco", "Tamaulipas", "Tlaxcala", "Veracruz", "Yucatán", "Zacatecas"
+  ],
+  "Italy": [
+    "Abruzzo", "Aosta Valley", "Apulia", "Basilicata", "Calabria", "Campania", "Emilia-Romagna", "Friuli-Venezia Giulia", "Lazio", "Liguria", "Lombardy", "Marche", "Molise", "Piedmont", "Sardinia", "Sicily", "Trentino-Alto Adige", "Tuscany", "Umbria", "Veneto"
+  ],
+  "Spain": [
+    "Andalusia", "Aragon", "Asturias", "Balearic Islands", "Basque Country", "Canary Islands", "Cantabria", "Castile and León", "Castile-La Mancha", "Catalonia", "Extremadura", "Galicia", "La Rioja", "Madrid", "Murcia", "Navarre", "Valencia"
+  ],
+  "Netherlands": [
+    "Drenthe", "Flevoland", "Friesland", "Gelderland", "Groningen", "Limburg", "North Brabant", "North Holland", "Overijssel", "South Holland", "Utrecht", "Zeeland"
+  ],
+  "South Korea": [
+    "Seoul", "Busan", "Daegu", "Incheon", "Gwangju", "Daejeon", "Ulsan", "Gyeonggi", "Gangwon", "Chungbuk", "Chungnam", "Jeonbuk", "Jeonnam", "Gyeongbuk", "Gyeongnam", "Jeju"
+  ],
+  "Russia": [
+    "Moscow", "Saint Petersburg", "Novosibirsk", "Yekaterinburg", "Nizhny Novgorod", "Kazan", "Chelyabinsk", "Omsk", "Samara", "Rostov-on-Don", "Ufa", "Krasnoyarsk", "Voronezh", "Perm", "Volgograd", "Krasnodar", "Saratov", "Tyumen", "Tolyatti", "Izhevsk", "Barnaul", "Ulyanovsk", "Irkutsk", "Khabarovsk", "Yaroslavl", "Vladivostok", "Makhachkala", "Tomsk", "Orenburg", "Kemerovo", "Novokuznetsk", "Ryazan", "Astrakhan", "Naberezhnye Chelny", "Penza", "Lipetsk", "Kirov", "Cheboksary", "Tula", "Kaliningrad", "Kursk", "Sevastopol", "Ulan-Ude", "Stavropol", "Sochi", "Tver", "Ivanovo", "Bryansk", "Belgorod", "Surgut", "Vladimir", "Chita", "Arzamas", "Nizhny Tagil", "Yakutsk", "Orsk", "Blagoveshchensk", "Syzran", "Nizhnevartovsk", "Kaluga", "Magnitogorsk", "Murom", "Rybinsk", "Chekhov", "Kostroma", "Petrozavodsk", "Nizhnekamsk", "Nalchik", "Shakhty", "Dzerzhinsk", "Bratsk", "Orël", "Angarsk", "Engels", "Korolyov", "Veliky Novgorod", "Saransk", "Mytishchi", "Komsomolsk-on-Amur", "Zhukovsky", "Novomoskovsk", "Pskov", "Bataysk", "Severodvinsk", "Volzhsky", "Yoshkar-Ola", "Abakan", "Nakhodka", "Syktyvkar", "Berezniki", "Novorossiysk", "Dmitrov", "Armavir", "Pushkino", "Ramenskoye", "Noginsk", "Khimki", "Domodedovo", "Serpuhov", "Novocherkassk", "Odintsovo", "Krasnogorsk", "Elektrostal", "Neftekamsk", "Kopeysk", "Nevinnomyssk", "Derbent", "Mezhdurechensk", "Kopeysk", "Nefteyugansk", "Kyzyl", "Noyabrsk", "Novocheboksarsk", "Balashikha", "Odintsovo", "Krasnogorsk", "Elektrostal", "Neftekamsk", "Kopeysk", "Nevinnomyssk", "Derbent", "Mezhdurechensk", "Kopeysk", "Nefteyugansk", "Kyzyl", "Noyabrsk", "Novocheboksarsk"
+  ],
+  "Indonesia": [
+    "Aceh", "Bali", "Banten", "Bengkulu", "Central Java", "Central Kalimantan", "Central Sulawesi", "East Java", "East Kalimantan", "East Nusa Tenggara", "Gorontalo", "Jakarta", "Jambi", "Lampung", "Maluku", "North Kalimantan", "North Maluku", "North Sulawesi", "North Sumatra", "Papua", "Riau", "Riau Islands", "South Kalimantan", "South Sulawesi", "South Sumatra", "Southeast Sulawesi", "West Java", "West Kalimantan", "West Nusa Tenggara", "West Papua", "West Sulawesi", "West Sumatra", "Yogyakarta"
+  ],
+  "Turkey": [
+    "Adana", "Adıyaman", "Afyonkarahisar", "Ağrı", "Aksaray", "Amasya", "Ankara", "Antalya", "Ardahan", "Artvin", "Aydın", "Balıkesir", "Bartın", "Batman", "Bayburt", "Bilecik", "Bingöl", "Bitlis", "Bolu", "Burdur", "Bursa", "Çanakkale", "Çankırı", "Çorum", "Denizli", "Diyarbakır", "Düzce", "Edirne", "Elazığ", "Erzincan", "Erzurum", "Eskişehir", "Gaziantep", "Giresun", "Gümüşhane", "Hakkâri", "Hatay", "Iğdır", "Isparta", "İstanbul", "İzmir", "Kahramanmaraş", "Karabük", "Karaman", "Kars", "Kastamonu", "Kayseri", "Kırıkkale", "Kırklareli", "Kırşehir", "Kilis", "Kocaeli", "Konya", "Kütahya", "Malatya", "Manisa", "Mardin", "Mersin", "Muğla", "Muş", "Nevşehir", "Niğde", "Ordu", "Osmaniye", "Rize", "Sakarya", "Samsun", "Siirt", "Sinop", "Sivas", "Şanlıurfa", "Şırnak", "Tekirdağ", "Tokat", "Trabzon", "Tunceli", "Uşak", "Van", "Yalova", "Yozgat", "Zonguldak"
+  ],
+  "Saudi Arabia": [
+    "Riyadh", "Makkah", "Madinah", "Eastern Province", "Asir", "Tabuk", "Hail", "Northern Borders", "Jizan", "Najran", "Al-Bahah", "Al-Jawf"
+  ],
+  "United Arab Emirates": [
+    "Abu Dhabi", "Dubai", "Sharjah", "Ajman", "Umm Al Quwain", "Ras Al Khaimah", "Fujairah"
+  ],
+  "Nigeria": [
+    "Abia", "Adamawa", "Akwa Ibom", "Anambra", "Bauchi", "Bayelsa", "Benue", "Borno", "Cross River", "Delta", "Ebonyi", "Edo", "Ekiti", "Enugu", "Gombe", "Imo", "Jigawa", "Kaduna", "Kano", "Katsina", "Kebbi", "Kogi", "Kwara", "Lagos", "Nasarawa", "Niger", "Ogun", "Ondo", "Osun", "Oyo", "Plateau", "Rivers", "Sokoto", "Taraba", "Yobe", "Zamfara", "Federal Capital Territory"
+  ],
+  "South Africa": [
+    "Eastern Cape", "Free State", "Gauteng", "KwaZulu-Natal", "Limpopo", "Mpumalanga", "Northern Cape", "North West", "Western Cape"
+  ],
+  "Singapore": [
+    "Central Region", "East Region", "North East Region", "North Region", "North West Region", "South East Region", "South West Region"
+  ],
+  "Philippines": [
+    "Luzon", "Visayas", "Mindanao", "National Capital Region (NCR)", "Cordillera Administrative Region (CAR)", "Ilocos Region", "Cagayan Valley", "Central Luzon", "CALABARZON", "MIMAROPA", "Bicol Region", "Western Visayas", "Central Visayas", "Eastern Visayas", "Zamboanga Peninsula", "Northern Mindanao", "Davao Region", "SOCCSKSARGEN", "Caraga", "Bangsamoro"
+  ],
+  "Malaysia": [
+    "Johor", "Kedah", "Kelantan", "Kuala Lumpur", "Labuan", "Melaka", "Negeri Sembilan", "Pahang", "Penang", "Perak", "Perlis", "Putrajaya", "Sabah", "Sarawak", "Selangor", "Terengganu"
+  ],
+  "Thailand": [
+    "Bangkok", "Phuket", "Chiang Mai", "Pattaya", "Krabi", "Samui", "Phang Nga", "Chiang Rai", "Hua Hin", "Khon Kaen", "Nakhon Ratchasima", "Udon Thani", "Rayong", "Chonburi", "Surat Thani", "Songkhla", "Nakhon Si Thammarat", "Phitsanulok", "Ratchaburi", "Kanchanaburi", "Ayutthaya", "Pathum Thani", "Nonthaburi", "Samut Prakan", "Nakhon Pathom", "Chachoengsao", "Prachin Buri", "Sa Kaeo", "Chanthaburi", "Trat", "Chumphon", "Ranong", "Phangnga", "Phuket", "Krabi", "Trang", "Satun", "Songkhla", "Yala", "Pattani", "Narathiwat"
+  ],
+  "Vietnam": [
+    "Hanoi", "Ho Chi Minh City", "Da Nang", "Hai Phong", "Can Tho", "Hue", "Nha Trang", "Quang Ninh", "Binh Duong", "Dong Nai", "Ba Ria-Vung Tau", "An Giang", "Bac Giang", "Bac Kan", "Bac Lieu", "Bac Ninh", "Ben Tre", "Binh Dinh", "Binh Duong", "Binh Phuoc", "Binh Thuan", "Ca Mau", "Cao Bang", "Cao Bang", "Dak Lak", "Dak Nong", "Dien Bien", "Dong Nai", "Dong Thap", "Gia Lai", "Ha Giang", "Ha Nam", "Ha Tinh", "Hai Duong", "Hai Phong", "Hau Giang", "Hoa Binh", "Hung Yen", "Khanh Hoa", "Kien Giang", "Kon Tum", "Lai Chau", "Lam Dong", "Lang Son", "Lao Cai", "Long An", "Nam Dinh", "Nghe An", "Ninh Binh", "Ninh Thuan", "Phu Tho", "Phu Yen", "Quang Binh", "Quang Nam", "Quang Ngai", "Quang Ninh", "Quang Tri", "Soc Trang", "Son La", "Tay Ninh", "Thai Binh", "Thai Nguyen", "Thanh Hoa", "Thua Thien Hue", "Tien Giang", "Tra Vinh", "Tuyen Quang", "Vinh Long", "Vinh Phuc", "Yen Bai"
+  ],
+  "Bangladesh": [
+    "Dhaka", "Chittagong", "Khulna", "Rajshahi", "Sylhet", "Rangpur", "Barisal", "Comilla"
+  ],
+  "Pakistan": [
+    "Punjab", "Sindh", "Khyber Pakhtunkhwa", "Balochistan", "Gilgit-Baltistan", "Azad Kashmir", "Islamabad Capital Territory"
+  ],
+  "Egypt": [
+    "Cairo", "Alexandria", "Giza", "Qalyubia", "Dakahlia", "Sharqia", "Monufia", "Qena", "Minya", "Sohag", "Asyut", "Beheira", "Kafr El Sheikh", "Gharbia", "Menofia", "Beni Suef", "Faiyum", "Damietta", "Port Said", "Ismailia", "Suez", "North Sinai", "South Sinai", "Red Sea", "New Valley", "Matrouh", "Luxor", "Aswan"
+  ],
+  "Argentina": [
+    "Buenos Aires", "Catamarca", "Chaco", "Chubut", "Córdoba", "Corrientes", "Entre Ríos", "Formosa", "Jujuy", "La Pampa", "La Rioja", "Mendoza", "Misiones", "Neuquén", "Río Negro", "Salta", "San Juan", "San Luis", "Santa Cruz", "Santa Fe", "Santiago del Estero", "Tierra del Fuego", "Tucumán"
+  ],
+  "Colombia": [
+    "Amazonas", "Antioquia", "Arauca", "Atlántico", "Bolívar", "Boyacá", "Caldas", "Caquetá", "Casanare", "Cauca", "Cesar", "Chocó", "Córdoba", "Cundinamarca", "Guainía", "Guaviare", "Huila", "La Guajira", "Magdalena", "Meta", "Nariño", "Norte de Santander", "Putumayo", "Quindío", "Risaralda", "San Andrés y Providencia", "Santander", "Sucre", "Tolima", "Valle del Cauca", "Vaupés", "Vichada"
+  ],
+  "Chile": [
+    "Arica y Parinacota", "Tarapacá", "Antofagasta", "Atacama", "Coquimbo", "Valparaíso", "Metropolitana", "O'Higgins", "Maule", "Ñuble", "Biobío", "Araucanía", "Los Ríos", "Los Lagos", "Aysén", "Magallanes"
+  ],
+  "Peru": [
+    "Amazonas", "Ancash", "Apurímac", "Arequipa", "Ayacucho", "Cajamarca", "Callao", "Cusco", "Huancavelica", "Huánuco", "Ica", "Junín", "La Libertad", "Lambayeque", "Lima", "Loreto", "Madre de Dios", "Moquegua", "Pasco", "Piura", "Puno", "San Martín", "Tacna", "Tumbes", "Ucayali"
+  ],
+  "Venezuela": [
+    "Amazonas", "Anzoátegui", "Apure", "Aragua", "Barinas", "Bolívar", "Carabobo", "Cojedes", "Delta Amacuro", "Falcón", "Guárico", "Lara", "Mérida", "Miranda", "Monagas", "Nueva Esparta", "Portuguesa", "Sucre", "Táchira", "Trujillo", "Vargas", "Yaracuy", "Zulia", "Capital District", "Federal Dependencies"
+  ],
+  "New Zealand": [
+    "Northland", "Auckland", "Waikato", "Bay of Plenty", "Gisborne", "Hawke's Bay", "Taranaki", "Manawatū-Whanganui", "Wellington", "Tasman", "Nelson", "Marlborough", "West Coast", "Canterbury", "Otago", "Southland", "Chatham Islands"
+  ],
+  "Ireland": [
+    "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin", "Galway", "Kerry", "Kildare", "Kilkenny", "Laois", "Leitrim", "Limerick", "Longford", "Louth", "Mayo", "Meath", "Monaghan", "Offaly", "Roscommon", "Sligo", "Tipperary", "Waterford", "Westmeath", "Wexford", "Wicklow"
+  ],
+  "Denmark": [
+    "Capital Region", "Zealand", "South Denmark", "Central Denmark Region", "North Denmark Region"
+  ],
+  "Finland": [
+    "Lapland", "Northern Ostrobothnia", "Kainuu", "North Karelia", "Northern Savonia", "Kanta-Häme", "Päijät-Häme", "Pirkanmaa", "Satakunta", "Southwest Finland", "Uusimaa", "Kymenlaakso", "South Karelia", "South Savonia", "Pohjois-Savo", "Central Ostrobothnia", "Ostrobothnia", "Pirkanmaa", "Satakunta", "Southwest Finland", "Uusimaa", "Kymenlaakso", "South Karelia", "South Savonia", "Pohjois-Savo", "Central Ostrobothnia", "Ostrobothnia", "Pirkanmaa", "Satakunta", "Southwest Finland", "Uusimaa", "Kymenlaakso", "South Karelia", "South Savonia", "Pohjois-Savo", "Central Ostrobothnia", "Ostrobothnia"
+  ],
+  "Portugal": [
+    "Lisbon", "Porto", "Braga", "Coimbra", "Funchal", "Setúbal", "Aveiro", "Viseu", "Leiria", "Faro", "Vila Nova de Gaia", "Amadora", "Évora", "Guarda", "Beja", "Castelo Branco", "Santarém", "Viana do Castelo", "Portalegre", "Bragança", "Vila Real"
+  ],
+  "Greece": [
+    "Attica", "Central Macedonia", "Thessaly", "Western Greece", "Crete", "East Macedonia and Thrace", "Epirus", "Ionian Islands", "North Aegean", "Peloponnese", "South Aegean", "West Greece", "Central Greece", "Western Macedonia"
+  ],
+  "Czech Republic": [
+    "Prague", "Central Bohemian", "South Bohemian", "Plzeň", "Karlovy Vary", "Ústí nad Labem", "Liberec", "Hradec Králové", "Pardubice", "South Moravian", "Olomouc", "Moravian-Silesian", "Zlín", "Vysočina"
+  ],
+  "Hungary": [
+    "Budapest", "Pest", "Borsod-Abaúj-Zemplén", "Szabolcs-Szatmár-Bereg", "Csongrád", "Bács-Kiskun", "Jász-Nagykun-Szolnok", "Heves", "Hajdú-Bihar", "Fejér", "Veszprém", "Komárom-Esztergom", "Győr-Moson-Sopron", "Somogy", "Baranya", "Tolna", "Zala", "Vas", "Nógrád"
+  ],
+  "Romania": [
+    "Bucharest", "Cluj", "Timiș", "Iași", "Constanța", "Craiova", "Brașov", "Galați", "Ploiești", "Brăila", "Oradea", "Bacău", "Pitești", "Sibiu", "Arad", "Buzău", "Ploiești", "Suceava", "Piatra Neamț", "Târgu Mureș", "Târgu Jiu", "Botoșani", "Bistrița", "Slatina", "Focșani", "Tulcea", "Reșița", "Călărași", "Alba Iulia", "Giurgiu", "Sighișoara", "Drobeta-Turnu Severin", "Bârlad", "Râmnicu Vâlcea", "Buzău", "Satu Mare", "Zalău", "Vaslui", "Botoșani", "Târgu Neamț", "Deva", "Câmpina", "Slobozia", "Gherla", "Câmpulung", "Medgidia", "Onești", "Zărnești", "Miercurea Ciuc", "Turda", "Sibiu", "Făgăraș", "Covasna", "Bistrița-Năsăud", "Maramureș", "Satu Mare", "Sălaj", "Bihor", "Arad", "Timiș", "Caraș-Severin", "Mehedinți", "Dolj", "Olt", "Teleorman", "Giurgiu", "Ilfov", "Ialomița", "Călărași", "Brăila", "Buzău", "Vrancea", "Galați", "Tulcea", "Constanța"
+  ],
+  "Ukraine": [
+    "Kyiv", "Kharkiv", "Odesa", "Dnipro", "Donetsk", "Zaporizhzhia", "Lviv", "Kryvyi Rih", "Mykolaiv", "Mariupol", "Luhansk", "Vinnytsia", "Makiivka", "Sevastopol", "Kherson", "Poltava", "Cherkasy", "Chernihiv", "Sumy", "Zhytomyr", "Kamianske", "Horlivka", "Rivne", "Khmelnytskyi", "Chernivtsi", "Kropyvnytskyi", "Ivano-Frankivsk", "Ternopil", "Lutsk", "Bila Tserkva", "Kremenchuk", "Ternopil", "Lutsk", "Bila Tserkva", "Kremenchuk", "Berdiansk", "Pavlohrad", "Khmelnytskyi", "Chernivtsi", "Kropyvnytskyi", "Ivano-Frankivsk", "Ternopil", "Lutsk", "Bila Tserkva", "Kremenchuk", "Melitopol", "Kerch", "Uzhhorod", "Nikopol", "Berdiansk", "Sumy", "Zhytomyr", "Kamianske", "Horlivka", "Rivne", "Khmelnytskyi", "Chernivtsi", "Kropyvnytskyi", "Ivano-Frankivsk", "Ternopil", "Lutsk", "Bila Tserkva", "Kremenchuk"
+  ],
+  "Kazakhstan": [
+    "Akmola", "Aktobe", "Almaty", "Atyrau", "East Kazakhstan", "Jambyl", "Karaganda", "Kostanay", "Kyzylorda", "Mangystau", "North Kazakhstan", "Pavlodar", "Turkestan", "West Kazakhstan", "Zhambyl"
+  ],
+  "Kenya": [
+    "Nairobi", "Mombasa", "Kisumu", "Nakuru", "Eldoret", "Kehancha", "Kitale", "Ruiru", "Naivasha", "Machakos", "Meru", "Thika", "Kakamega", "Busia", "Bungoma", "Malindi", "Garissa", "Lodwar", "Mandera", "Moyale", "Lamu", "Voi", "Wajir", "Marsabit", "Isiolo", "Embu", "Nyeri", "Nanyuki", "Murang'a", "Kiambu", "Thika", "Kerugoya", "Mwea", "Karuri", "Nyahururu", "Narok", "Kajiado", "Ol Kalou", "Ngong", "Ongata Rongai", "Kiserian", "Matuu", "Mwingi", "Kitui", "Makindu", "Sultan Hamud", "Emali", "Mtito Andei", "Kibwezi", "Makindu", "Voi", "Mariakani", "Malindi", "Lamu", "Mombasa", "Kilifi", "Kwale", "Tana River", "Garissa", "Wajir", "Mandera", "Marsabit", "Isiolo", "Meru", "Tharaka Nithi", "Embu", "Kirinyaga", "Murang'a", "Kiambu", "Nairobi", "Kajiado", "Machakos", "Makueni", "Kitui", "Nyandarua", "Nyeri", "Kirinyaga", "Murang'a", "Kiambu", "Turkana", "West Pokot", "Samburu", "Trans Nzoia", "Uasin Gishu", "Elgeyo-Marakwet", "Nandi", "Baringo", "Laikipia", "Nakuru", "Narok", "Kajiado", "Kericho", "Bomet", "Kakamega", "Vihiga", "Bungoma", "Busia", "Siaya", "Kisumu", "Homa Bay", "Migori", "Kisii", "Nyamira", "Nyandarua", "Nyeri", "Kirinyaga", "Murang'a", "Kiambu", "Turkana", "West Pokot", "Samburu", "Trans Nzoia", "Uasin Gishu", "Elgeyo-Marakwet", "Nandi", "Baringo", "Laikipia", "Nakuru", "Narok", "Kajiado", "Kericho", "Bomet", "Kakamega", "Vihiga", "Bungoma", "Busia", "Siaya", "Kisumu", "Homa Bay", "Migori", "Kisii", "Nyamira"
+  ],
+  "Ethiopia": [
+    "Addis Ababa", "Afar", "Amhara", "Benishangul-Gumuz", "Gambela", "Harari", "Oromia", "Somali", "Southern Nations", "Tigray"
+  ],
+  "Ghana": [
+    "Ashanti", "Brong-Ahafo", "Central", "Eastern", "Greater Accra", "Northern", "Upper East", "Upper West", "Volta", "Western"
+  ],
+  "Tanzania": [
+    "Arusha", "Dar es Salaam", "Dodoma", "Geita", "Iringa", "Kagera", "Katavi", "Kigoma", "Kilimanjaro", "Lindi", "Manyara", "Mara", "Mbeya", "Morogoro", "Mtwara", "Mwanza", "Njombe", "Pemba North", "Pemba South", "Pwani", "Rukwa", "Ruvuma", "Shinyanga", "Simiyu", "Singida", "Tabora", "Tanga", "Zanzibar North", "Zanzibar South", "Zanzibar West"
+  ],
+  "Sri Lanka": [
+    "Central", "Eastern", "North Central", "North Western", "Northern", "Sabaragamuwa", "Southern", "Uva", "Western"
+  ],
+  "Myanmar": [
+    "Kachin", "Kayah", "Kayin", "Chin", "Sagaing", "Tanintharyi", "Bago", "Magway", "Mandalay", "Mon", "Rakhine", "Yangon", "Shan", "Ayeyarwady"
+  ],
+  "Cambodia": [
+    "Banteay Meanchey", "Battambang", "Kampong Cham", "Kampong Chhnang", "Kampong Speu", "Kampong Thom", "Kampot", "Kandal", "Kep", "Koh Kong", "Kratie", "Mondulkiri", "Oddar Meanchey", "Pailin", "Phnom Penh", "Preah Sihanouk", "Preah Vihear", "Pursat", "Ratanakiri", "Siem Reap", "Stung Treng", "Svay Rieng", "Takeo", "Tbong Khmum"
+  ],
+  "Laos": [
+    "Attapeu", "Bokeo", "Bolikhamsai", "Champasak", "Hua Phan", "Khammouane", "Luang Namtha", "Luang Prabang", "Oudomxay", "Phongsaly", "Savannakhet", "Saysomboun", "Vientiane", "Vientiane Prefecture", "Xayabury", "Xekong", "Xiangkhouang"
+  ],
+  "Nepal": [
+    "Bagmati", "Gandaki", "Karnali", "Lumbini", "Province No. 1", "Province No. 2", "Sudurpashchim"
+  ],
+  "Afghanistan": [
+    "Badakhshan", "Badghis", "Baghlan", "Balkh", "Bamyan", "Daykundi", "Farah", "Faryab", "Ghazni", "Ghor", "Helmand", "Herat", "Jowzjan", "Kabul", "Kandahar", "Kapisa", "Khost", "Kunar", "Kunduz", "Laghman", "Logar", "Nangarhar", "Nimruz", "Nuristan", "Paktia", "Paktika", "Panjshir", "Parwan", "Samangan", "Sar-e Pol", "Takhar", "Uruzgan", "Wardak", "Zabul"
+  ],
+  "Iraq": [
+    "Al Anbar", "Babil", "Baghdad", "Basra", "Dhi Qar", "Diyala", "Duhok", "Erbil", "Karbala", "Kirkuk", "Maysan", "Muthanna", "Najaf", "Nineveh", "Qadisiyyah", "Saladin", "Sulaymaniyah", "Wasit"
+  ],
+  "Iran": [
+    "Tehran", "Isfahan", "Fars", "Khorasan Razavi", "East Azerbaijan", "West Azerbaijan", "Khuzestan", "Kerman", "Kermanshah", "Mazandaran", "Gilan", "Hamadan", "Sistan and Baluchestan", "Hormozgan", "Qom", "Markazi", "Kurdistan", "Zanjan", "Semnan", "Yazd", "Chaharmahal and Bakhtiari", "Bushehr", "Ilam", "Lorestan", "Kohgiluyeh and Boyer-Ahmad", "Golestan", "North Khorasan", "South Khorasan", "Alborz", "Qazvin"
+  ],
+  "Jordan": [
+    "Amman", "Irbid", "Jerash", "Ajloun", "Mafraq", "Balqa", "Zarqa", "Madaba", "Karak", "Tafilah", "Ma'an", "Aqaba"
+  ],
+  "Lebanon": [
+    "Beirut", "Mount Lebanon", "North Governorate", "South Governorate", "Bekaa", "Nabatieh"
+  ],
+  "Syria": [
+    "Damascus", "Rif Dimashq", "Aleppo", "Homs", "Hama", "Latakia", "Tartus", "Idlib", "Daraa", "Suwayda", "Quneitra", "Raqqa", "Deir ez-Zor", "Hasakah"
+  ],
+  "Kuwait": [
+    "Al Asimah", "Hawalli", "Farwaniya", "Mubarak Al-Kabeer", "Ahmadi", "Jahra"
+  ],
+  "Qatar": [
+    "Ad Dawhah", "Al Rayyan", "Al Wakrah", "Al Khor", "Umm Salal", "Al Daayen", "Al Shahaniya", "Al Muaither"
+  ],
+  "Bahrain": [
+    "Capital", "Muharraq", "Northern", "Southern"
+  ],
+  "Oman": [
+    "Muscat", "Dhofar", "Musandam", "Buraimi", "Dakhiliyah", "North Batinah", "South Batinah", "North Sharqiyah", "South Sharqiyah", "Dhahirah", "Wusta"
+  ],
+  "Yemen": [
+    "Aden", "Abyan", "Al Bayda", "Al Dali", "Al Hudaydah", "Al Jawf", "Al Mahrah", "Al Mahwit", "Amanat Al Asimah", "Amran", "Dhamar", "Hadhramaut", "Hajjah", "Hodeidah", "Ibb", "Lahij", "Ma'rib", "Raymah", "Sa'dah", "Sana'a", "Shabwah", "Socotra", "Ta'izz"
+  ],
+  "Libya": [
+    "Tripoli", "Benghazi", "Misrata", "Zawiya", "Bayda", " Sabha", "Tobruk", "Sirte", "Ajdabiya", "Derna", "Kufra", "Marj", "Bani Walid", "Zuwara", "Gharyan", "Janzur", "Zliten", "Msallata", "Tarhuna", "Bani Walid", "Khoms", "Garyan", "Zawiya", "Sabha", "Murzuq", "Ghat", "Ghadames", "Jalu", "Kufra", "Jufra", "Waddan", "Hun", "Zella", "Sokna", "Brak", "Murzuq", "Ghat", "Ghadames", "Jalu", "Kufra", "Jufra", "Waddan", "Hun", "Zella", "Sokna"
+  ],
+  "Tunisia": [
+    "Ariana", "Béja", "Ben Arous", "Bizerte", "Gabès", "Gafsa", "Jendouba", "Kairouan", "Kasserine", "Kébili", "Le Kef", "Mahdia", "Manouba", "Médenine", "Monastir", "Nabeul", "Sfax", "Sidi Bouzid", "Siliana", "Sousse", "Tataouine", "Tozeur", "Tunis", "Zaghouan"
+  ],
+  "Sudan": [
+    "Khartoum", "Gezira", "North Kordofan", "Kassala", "Red Sea", "White Nile", "Blue Nile", "North Darfur", "South Darfur", "West Darfur", "South Kordofan", "North Darfur", "South Darfur", "West Darfur", "South Kordofan", "Gadarif", "Sennar", "River Nile", "White Nile", "Blue Nile", "North Darfur", "South Darfur", "West Darfur", "South Kordofan"
+  ],
+  "Somalia": [
+    "Awdal", "Bakool", "Banadir", "Bari", "Bay", "Galguduud", "Gedo", "Hiran", "Middle Juba", "Lower Juba", "Middle Shabelle", "Lower Shabelle", "Mudug", "Nugal", "Sanaag", "Shabeellaha Dhexe", "Shabeellaha Hoose", "Sool", "Togdheer", "Woqooyi Galbeed"
+  ],
+  "Mali": [
+    "Kayes", "Koulikoro", "Sikasso", "Ségou", "Mopti", "Tombouctou", "Gao", "Kidal", "Bamako"
+  ],
+  "Burkina Faso": [
+    "Boucle du Mouhoun", "Cascades", "Centre", "Centre-Est", "Centre-Nord", "Centre-Ouest", "Centre-Sud", "Est", "Hauts-Bassins", "Nord", "Plateau-Central", "Sahel", "Sud-Ouest"
+  ],
+  "Niger": [
+    "Agadez", "Diffa", "Dosso", "Maradi", "Tahoua", "Tillabéri", "Zinder", "Niamey"
+  ],
+  "Chad": [
+    "Bahr el Gazel", "Borkou", "Chari-Baguirmi", "Guéra", "Hadjer-Lamis", "Kanem", "Lac", "Logone Occidental", "Logone Oriental", "Mandoul", "Mayo-Kebbi Est", "Mayo-Kebbi Ouest", "Moyen-Chari", "Ouaddaï", "Salamat", "Tandjilé", "Wadi Fira", "N'Djamena"
+  ],
+  "Senegal": [
+    "Dakar", "Diourbel", "Fatick", "Kaolack", "Kédougou", "Kolda", "Kaffrine", "Kaolack", "Kédougou", "Kolda", "Louga", "Matam", "Saint-Louis", "Sédhiou", "Tambacounda", "Thiès", "Ziguinchor"
+  ],
+  "Mauritania": [
+    "Adrar", "Assaba", "Brakna", "Dakhlet Nouadhibou", "Gorgol", "Guidimaka", "Hodh Ech Chargui", "Hodh El Gharbi", "Inchiri", "Tagant", "Tiris Zemmour", "Trarza", "Nouakchott"
+  ],
+  "Ivory Coast": [
+    "Abidjan", "Yamoussoukro", "Bouaké", "Daloa", "Korhogo", "San-Pédro", "Divo", "Abengourou", "Bondoukou", "Agboville", "Séguéla", "Soubré", "Toumodi", "Issia", "Dimbokro", "Katiola", "Bouna", "Aboisso", "Oumé", "M'Bahiakro", "Adzopé", "Guiglo", "Duékoué", "Man", "Danane", "Sinfra", "Bangolo", "Touba", "Dabou", "Grand-Béréby", "Tabou", "Koumassi", "Marcory", "Plateau", "Treichville", "Yopougon", "Abobo", "Songon", "Attecoubé", "Koumassi", "Marcory", "Plateau", "Treichville", "Yopougon", "Abobo", "Songon", "Attecoubé"
+  ],
+  "Guinea": [
+    "Conakry", "Nzérékoré", "Kankan", "Kindia", "Labé", "Mamou", "Boké", "Faranah", "Kérouané", "Beyla", "Macenta", "Kissidougou", "Siguiri", "Dinguiraye", "Télimélé", "Boffa", "Forécariah", "Coyah", "Dubréka", "Kindia", "Tougué", "Mali", "Koundara", "Gaoual", "Koubia", "Lélouma", "Mamou", "Dalaba", "Pita", "Faranah", "Dabola", "Kissidougou", "Kérouané", "Macenta", "Beyla", "Guéckédou", "Nzérékoré", "Yomou", "Lola", "Bouna", "Kankan", "Siguiri", "Kouroussa", "Mandiana", "Sankaran", "Kérouané", "Kissidougou", "Macenta", "Beyla", "Guéckédou", "Nzérékoré", "Yomou", "Lola", "Bouna"
+  ],
+  "Liberia": [
+    "Montserrado", "Bomi", "Grand Cape Mount", "Grand Bassa", "Grand Gedeh", "Grand Kru", "Lofa", "Margibi", "Maryland", "Nimba", "River Cess", "River Gee", "Sinoe"
+  ],
+  "Sierra Leone": [
+    "Western Area", "Northern", "North West", "South", "South East", "East"
+  ],
+  "Benin": [
+    "Alibori", "Atakora", "Atlantique", "Borgou", "Collines", "Donga", "Kouffo", "Littoral", "Mono", "Ouémé", "Plateau", "Zou"
+  ],
+  "Togo": [
+    "Maritime", "Plateaux", "Centrale", "Kara", "Savanes"
+  ],
+  "Cameroon": [
+    "Adamaoua", "Centre", "East", "Far North", "Littoral", "North", "Northwest", "South", "Southwest", "West"
+  ],
+  "Gabon": [
+    "Estuaire", "Haut-Ogooué", "Moyen-Ogooué", "Ngounié", "Nyanga", "Ogooué-Ivindo", "Ogooué-Lolo", "Ogooué-Maritime", "Woleu-Ntem"
+  ],
+  "Congo": [
+    "Brazzaville", "Pointe-Noire", "Dolisie", "Nkayi", "Mouyondzi", "Gamboma", "Impfondo", "Sibiti", "Kinkala", "Madingou", "Owando", "Makoua", "Djambala", "Mindouli", "Kindamba", "Mouyondzi", "Gamboma", "Impfondo", "Sibiti", "Kinkala", "Madingou", "Owando", "Makoua", "Djambala", "Mindouli", "Kindamba"
+  ],
+  "Uganda": [
+    "Central", "Eastern", "Northern", "Western", "Kampala"
+  ],
+  "Rwanda": [
+    "Kigali", "Northern", "Eastern", "Southern", "Western"
+  ],
+  "Burundi": [
+    "Bujumbura Mairie", "Bubanza", "Bujumbura Rural", "Bururi", "Cankuzo", "Cibitoke", "Gitega", "Karuzi", "Kayanza", "Kirundo", "Makamba", "Muramvya", "Muyinga", "Mwaro", "Ngozi", "Rutana", "Ruyigi"
+  ],
+  "Zambia": [
+    "Central", "Copperbelt", "Eastern", "Luapula", "Lusaka", "Muchinga", "Northern", "North-Western", "Southern", "Western"
+  ],
+  "Zimbabwe": [
+    "Bulawayo", "Harare", "Manicaland", "Mashonaland Central", "Mashonaland East", "Mashonaland West", "Masvingo", "Matabeleland North", "Matabeleland South", "Midlands"
+  ],
+  "Botswana": [
+    "Central", "Ghanzi", "Kgalagadi", "Kgatleng", "Kweneng", "North-East", "North-West", "South-East", "Southern"
+  ],
+  "Namibia": [
+    "Erongo", "Hardap", "Karas", "Kavango East", "Kavango West", "Khomas", "Kunene", "Ohangwena", "Omaheke", "Omusati", "Oshana", "Oshikoto", "Otjozondjupa", "Zambezi"
+  ],
+  "Mozambique": [
+    "Cabo Delgado", "Gaza", "Inhambane", "Manica", "Maputo", "Maputo City", "Nampula", "Niassa", "Sofala", "Tete", "Zambézia"
+  ],
+  "Madagascar": [
+    "Antananarivo", "Antsiranana", "Fianarantsoa", "Mahajanga", "Toamasina", "Toliara"
+  ],
+  "Mauritius": [
+    "Black River", "Flacq", "Grand Port", "Moka", "Pamplemousses", "Plaines Wilhems", "Port Louis", "Rivière du Rempart", "Rivière Noire", "Savanne", "Rodrigues", "Agaléga", "Saint Brandon"
+  ],
+  "Seychelles": [
+    "Anse Boileau", "Anse Etoile", "Anse Louis", "Anse Royale", "Baie Lazare", "Baie Sainte Anne", "Beau Vallon", "Bel Air", "Bel Ombre", "Cascade", "English River", "Glacis", "Grand' Anse", "La Digue", "La Misère", "La Rivière Anglaise", "Mont Fleuri", "Plaisance", "Port Glaud", "Praslin", "Roche Caiman", "Saint Louis", "Takamaka", "Victoria"
+  ],
+  "Maldives": [
+    "Alifu Alifu", "Alifu Dhaalu", "Baa", "Dhaalu", "Faafu", "Gaafu Alifu", "Gaafu Dhaalu", "Gnaviyani", "Haa Alifu", "Haa Dhaalu", "Kaafu", "Laamu", "Lhaviyani", "Meemu", "Noonu", "Raa", "Seenu", "Shaviyani", "Thaa", "Vaavu"
+  ],
+  "Bhutan": [
+    "Bumthang", "Chukha", "Dagana", "Gasa", "Haa", "Lhuentse", "Mongar", "Paro", "Pemagatshel", "Punakha", "Samdrup Jongkhar", "Samtse", "Sarpang", "Thimphu", "Trashigang", "Trashiyangtse", "Trongsa", "Tsirang", "Wangdue Phodrang", "Zhemgang"
+  ],
+  "Mongolia": [
+    "Ulaanbaatar", "Arkhangai", "Bayan-Ölgii", "Bayankhongor", "Bulgan", "Darkhan-Uul", "Dornod", "Dornogovi", "Dundgovi", "Dzavkhan", "Govi-Altai", "Govisümber", "Khentii", "Khovd", "Khövsgöl", "Ömnögovi", "Övörkhangai", "Selenge", "Sükhbaatar", "Töv", "Uvs", "Zavkhan"
+  ],
+  "North Korea": [
+    "Pyongyang", "Chagang", "Hamgyong North", "Hamgyong South", "Hwanghae North", "Hwanghae South", "Kangwon", "North Hamgyong", "North Hwanghae", "Ryanggang", "South Hamgyong", "South Hwanghae", "Rason"
+  ],
+  "Taiwan": [
+    "Taipei", "New Taipei", "Taoyuan", "Taichung", "Tainan", "Kaohsiung", "Keelung", "Hsinchu", "Chiayi", "Yilan", "Hsinchu County", "Miaoli", "Changhua", "Nantou", "Yunlin", "Chiayi County", "Pingtung", "Taitung", "Hualien", "Penghu", "Kinmen", "Lienchiang"
+  ],
+  "Hong Kong": [
+    "Hong Kong Island", "Kowloon", "New Territories"
+  ],
+  "Macau": [
+    "Macau Peninsula", "Taipa", "Coloane", "Cotai"
+  ],
+  "Cuba": [
+    "Pinar del Río", "Artemisa", "Mayabeque", "La Habana", "Matanzas", "Cienfuegos", "Villa Clara", "Sancti Spíritus", "Ciego de Ávila", "Camagüey", "Las Tunas", "Holguín", "Granma", "Santiago de Cuba", "Guantánamo", "Isla de la Juventud"
+  ],
+  "Jamaica": [
+    "Hanover", "Saint Elizabeth", "Saint James", "Trelawny", "Westmoreland", "Clarendon", "Manchester", "Saint Ann", "Saint Catherine", "Saint Mary", "Portland", "Saint Andrew", "Saint Thomas", "Kingston", "Saint Andrew", "Saint Thomas"
+  ],
+  "Haiti": [
+    "Artibonite", "Centre", "Grand'Anse", "Nippes", "Nord", "Nord-Est", "Nord-Ouest", "Ouest", "Sud", "Sud-Est"
+  ],
+  "Dominican Republic": [
+    "Azua", "Bahoruco", "Barahona", "Dajabón", "Duarte", "Elías Piña", "El Seibo", "Espaillat", "Hato Mayor", "Hermanas Mirabal", "Independencia", "La Altagracia", "La Romana", "La Vega", "María Trinidad Sánchez", "Monseñor Nouel", "Monte Cristi", "Monte Plata", "Pedernales", "Peravia", "Puerto Plata", "Samaná", "Sánchez Ramírez", "San Cristóbal", "San José de Ocoa", "San Juan", "San Pedro de Macorís", "Santiago", "Santiago Rodríguez", "Santo Domingo", "Valverde"
+  ],
+  "Puerto Rico": [
+    "San Juan", "Bayamón", "Carolina", "Ponce", "Caguas", "Guaynabo", "Arecibo", "Toa Baja", "Mayagüez", "Trujillo Alto"
+  ],
+  "Panama": [
+    "Bocas del Toro", "Coclé", "Colón", "Chiriquí", "Darién", "Herrera", "Los Santos", "Panamá", "Veraguas", "Guna Yala", "Emberá-Wounaan", "Ngäbe-Buglé"
+  ],
+  "Costa Rica": [
+    "San José", "Alajuela", "Cartago", "Heredia", "Guanacaste", "Puntarenas", "Limón"
+  ],
+  "Guatemala": [
+    "Alta Verapaz", "Baja Verapaz", "Chimaltenango", "Chiquimula", "El Progreso", "Escuintla", "Guatemala", "Huehuetenango", "Izabal", "Jalapa", "Jutiapa", "Petén", "Quetzaltenango", "Quiché", "Retalhuleu", "Sacatepéquez", "San Marcos", "Santa Rosa", "Sololá", "Suchitepéquez", "Totonicapán", "Zacapa"
+  ],
+  "El Salvador": [
+    "Ahuachapán", "Cabañas", "Chalatenango", "Cuscatlán", "La Libertad", "La Paz", "La Unión", "Morazán", "San Miguel", "San Salvador", "Santa Ana", "San Vicente", "Sonsonate", "Usulután"
+  ],
+  "Honduras": [
+    "Atlántida", "Choluteca", "Colón", "Comayagua", "Copán", "Cortés", "El Paraíso", "Francisco Morazán", "Gracias a Dios", "Intibucá", "Islas de la Bahía", "La Paz", "Lempira", "Ocotepeque", "Olancho", "Santa Bárbara", "Valle", "Yoro"
+  ],
+  "Nicaragua": [
+    "Boaco", "Carazo", "Chinandega", "Chontales", "Estelí", "Granada", "Jinotega", "León", "Madriz", "Managua", "Masaya", "Matagalpa", "Nueva Segovia", "Río San Juan", "Rivas", "North Caribbean Coast", "South Caribbean Coast"
+  ],
+  "Belize": [
+    "Belize", "Cayo", "Corozal", "Orange Walk", "Stann Creek", "Toledo"
+  ],
+  "Ecuador": [
+    "Azuay", "Bolívar", "Cañar", "Carchi", "Chimborazo", "Cotopaxi", "El Oro", "Esmeraldas", "Galápagos", "Guayas", "Imbabura", "Loja", "Los Ríos", "Manabí", "Morona-Santiago", "Napo", "Orellana", "Pastaza", "Pichincha", "Santa Elena", "Santo Domingo de los Tsáchilas", "Sucumbíos", "Tungurahua", "Zamora-Chinchipe"
+  ],
+  "Bolivia": [
+    "Beni", "Chuquisaca", "Cochabamba", "La Paz", "Oruro", "Pando", "Potosí", "Santa Cruz", "Tarija"
+  ],
+  "Paraguay": [
+    "Alto Paraguay", "Alto Paraná", "Amambay", "Boquerón", "Caaguazú", "Caazapá", "Canindeyú", "Central", "Concepción", "Cordillera", "Guairá", "Itapúa", "Misiones", "Ñeembucú", "Paraguarí", "Presidente Hayes", "San Pedro"
+  ],
+  "Uruguay": [
+    "Artigas", "Canelones", "Cerro Largo", "Colonia", "Durazno", "Flores", "Florida", "Lavalleja", "Maldonado", "Montevideo", "Paysandú", "Río Negro", "Rivera", "Rocha", "Salto", "San José", "Soriano", "Tacuarembó", "Treinta y Tres"
+  ],
+  "Guyana": [
+    "Barima-Waini", "Cuyuni-Mazaruni", "Demerara-Mahaica", "East Berbice-Corentyne", "Essequibo Islands-West Demerara", "Mahaica-Berbice", "Pomeroon-Supenaam", "Potaro-Siparuni", "Upper Demerara-Berbice", "Upper Takutu-Upper Essequibo"
+  ],
+  "Suriname": [
+    "Brokopondo", "Commewijne", "Coronie", "Marowijne", "Nickerie", "Para", "Paramaribo", "Saramacca", "Sipaliwini", "Wanica"
+  ],
+  "French Guiana": [
+    "Cayenne", "Matoury", "Saint-Laurent-du-Maroni", "Kourou", "Remire-Montjoly", "Sinnamary", "Macouria", "Kourou", "Saint-Georges", "Maripasoula", "Grand-Santi", "Papaïchton", "Saul", "Camopi"
+  ]
+}

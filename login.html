@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login to your Future Pro English student portal to access your courses, materials, and progress tracking.">
+    <meta name="keywords" content="Future Pro English login, student portal, language learning dashboard">
+    <meta name="author" content="Future Pro English">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Login - Future Pro English">
+    <meta property="og:description" content="Access your student portal to view courses and track your progress.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://futureproenglish.com/login.html">
+    <meta property="og:image" content="https://futureproenglish.com/assets/og-image.jpg">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Login - Future Pro English">
+    <meta name="twitter:description" content="Access your student portal to view courses and track your progress.">
+    
+    <title>Login - Future Pro English</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Main Content -->
+    <main id="main-content">
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="index.html" class="logo" aria-label="Future Pro English Home">
+                <div class="logo-icon">E</div>
+                <span class="logo-text">Future Pro English</span>
+            </a>
+            <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </span>
+            </button>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="enroll.html" class="nav-link">Enroll</a>
+                <a href="login.html" class="nav-link">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Overlay -->
+    <nav class="nav-overlay" aria-label="Mobile navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="enroll.html" class="nav-link">Enroll</a>
+        <a href="login.html" class="nav-link">Login</a>
+    </nav>
+
+    <!-- Login Section -->
+    <section class="login-section">
+        <div class="container">
+            <div class="login-card">
+                <div class="login-header">
+                    <h1 class="login-title">Welcome back</h1>
+                    <p class="login-subtitle" id="loginSubtitle">Choose your account type to continue</p>
+                </div>
+                <form id="loginForm" class="login-form">
+                    <div class="form-group">
+                        <label for="accountType" class="form-label">Login as</label>
+                        <select id="accountType" name="accountType" class="form-input" required>
+                            <option value="" selected disabled hidden></option>
+                            <option value="student">Student</option>
+                            <option value="management">Management Person</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="loginMethod" class="form-label">Sign in with</label>
+                        <div class="login-identity-control">
+                            <select id="loginMethod" name="loginMethod" class="login-method-select" required aria-label="Sign-in method">
+                                <option value="" selected disabled hidden></option>
+                                <option value="email">Email address</option>
+                                <option value="phone">Phone number</option>
+                            </select>
+                            <input type="text" id="loginIdentifier" name="loginIdentifier" class="login-identifier-input" required aria-required="true" autocomplete="username" placeholder="Choose email or phone first">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" id="password" name="password" class="form-input" required aria-required="true" autocomplete="current-password">
+                    </div>
+                    <div class="login-options">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="remember" class="checkbox-input">
+                            <span class="checkbox-text">Remember me</span>
+                        </label>
+                        <span class="login-role" id="loginRole">Choose account type</span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Sign In</button>
+                </form>
+                <div class="login-footer">
+                    <p class="login-footer-text">Don't have an account? <a href="enroll.html" class="login-footer-link">Enroll now</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <div class="toast-content">
+            <p class="toast-message">Enter valid account credentials.</p>
+        </div>
+    </div>
+    </main>
+
+    <script src="js/main.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/management-data.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>

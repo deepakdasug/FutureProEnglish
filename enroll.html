@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enroll in Future Pro English courses - IELTS preparation, Business English, General English, and more. Start your English learning journey today.">
+    <meta name="keywords" content="Enroll Future Pro English, English course registration, IELTS course signup, Business English enrollment">
+    <meta name="author" content="Future Pro English">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Enroll Now - Future Pro English">
+    <meta property="og:description" content="Start your English learning journey today. IELTS, Business English, and more.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://futureproenglish.com/enroll.html">
+    <meta property="og:image" content="https://futureproenglish.com/assets/og-image.jpg">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Enroll Now - Future Pro English">
+    <meta name="twitter:description" content="Start your English learning journey today.">
+    
+    <title>Enroll Now - Future Pro English</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Main Content -->
+    <main id="main-content">
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="index.html" class="logo" aria-label="Future Pro English Home">
+                <div class="logo-icon">E</div>
+                <span class="logo-text">Future Pro English</span>
+            </a>
+            <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </span>
+            </button>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="enroll.html" class="nav-link">Enroll</a>
+                <a href="login.html" class="nav-link">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Overlay -->
+    <nav class="nav-overlay" aria-label="Mobile navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="enroll.html" class="nav-link">Enroll</a>
+        <a href="login.html" class="nav-link">Login</a>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header page-header-simple">
+        <div class="container">
+            <h1 class="page-title">Enroll Now</h1>
+            <p class="page-subtitle">Start your English learning journey today</p>
+        </div>
+    </section>
+
+    <!-- Enrollment Form Section -->
+    <section class="section">
+        <div class="container">
+            <form id="enrollForm" class="enroll-form" novalidate>
+                <!-- Section 1: Personal Information -->
+                <div class="form-section" id="section1" data-section="1">
+                    <h2 class="form-section-title">Personal Information</h2>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="fullName" class="form-label">Full Name *</label>
+                            <input type="text" id="fullName" name="fullName" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Date of Birth *</label>
+                            <div class="date-of-birth-group" role="group" aria-label="Date of birth">
+                                <select id="dobDay" name="dobDay" class="form-input dob-select" required>
+                                    <option value="">Day</option>
+                                </select>
+                                <select id="dobMonth" name="dobMonth" class="form-input dob-select" required>
+                                    <option value="">Month</option>
+                                    <option value="1">January</option>
+                                    <option value="2">February</option>
+                                    <option value="3">March</option>
+                                    <option value="4">April</option>
+                                    <option value="5">May</option>
+                                    <option value="6">June</option>
+                                    <option value="7">July</option>
+                                    <option value="8">August</option>
+                                    <option value="9">September</option>
+                                    <option value="10">October</option>
+                                    <option value="11">November</option>
+                                    <option value="12">December</option>
+                                </select>
+                                <select id="dobYear" name="dobYear" class="form-input dob-select" required>
+                                    <option value="">Year</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="gender" class="form-label">Gender *</label>
+                            <select id="gender" name="gender" class="form-input" required>
+                                <option value="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                                <option value="prefer-not-to-say">Prefer not to say</option>
+                            </select>
+                        </div>
+                        <div class="form-group form-group-full">
+                            <label class="form-label">Phone Number *</label>
+                            <div class="phone-input-group">
+                                <input type="text" id="phoneCountryCode" name="phoneCountryCode" class="form-input phone-country-code" required list="countryCodes" placeholder="Country code">
+                                <datalist id="countryCodes">
+                                    <option value="+1">+1 (US/CA)</option>
+                                    <option value="+44">+44 (UK)</option>
+                                    <option value="+91">+91 (India)</option>
+                                    <option value="+61">+61 (AU)</option>
+                                    <option value="+49">+49 (DE)</option>
+                                    <option value="+33">+33 (FR)</option>
+                                    <option value="+81">+81 (JP)</option>
+                                    <option value="+86">+86 (CN)</option>
+                                    <option value="+55">+55 (BR)</option>
+                                    <option value="+52">+52 (MX)</option>
+                                    <option value="+39">+39 (IT)</option>
+                                    <option value="+34">+34 (ES)</option>
+                                    <option value="+31">+31 (NL)</option>
+                                    <option value="+82">+82 (KR)</option>
+                                    <option value="+7">+7 (RU)</option>
+                                    <option value="+62">+62 (ID)</option>
+                                    <option value="+90">+90 (TR)</option>
+                                    <option value="+966">+966 (SA)</option>
+                                    <option value="+65">+65 (SG)</option>
+                                    <option value="+63">+63 (PH)</option>
+                                    <option value="+60">+60 (MY)</option>
+                                    <option value="+66">+66 (TH)</option>
+                                    <option value="+84">+84 (VN)</option>
+                                    <option value="+880">+880 (BD)</option>
+                                    <option value="+92">+92 (PK)</option>
+                                    <option value="+20">+20 (EG)</option>
+                                    <option value="+54">+54 (AR)</option>
+                                    <option value="+57">+57 (CO)</option>
+                                    <option value="+56">+56 (CL)</option>
+                                    <option value="+51">+51 (PE)</option>
+                                    <option value="+27">+27 (ZA)</option>
+                                    <option value="+234">+234 (NG)</option>
+                                    <option value="+254">+254 (KE)</option>
+                                    <option value="+251">+251 (ET)</option>
+                                    <option value="+94">+94 (LK)</option>
+                                    <option value="+95">+95 (MM)</option>
+                                    <option value="+855">+855 (KH)</option>
+                                    <option value="+977">+977 (NP)</option>
+                                    <option value="+968">+968 (OM)</option>
+                                    <option value="+971">+971 (AE)</option>
+                                    <option value="+974">+974 (QA)</option>
+                                    <option value="+973">+973 (BH)</option>
+                                    <option value="+264">+264 (NA)</option>
+                                </datalist>
+                                <input type="tel" id="phoneNumber" name="phoneNumber" class="form-input phone-number" required placeholder="Enter phone number">
+                            </div>
+                            <span class="validation-message" id="phoneError">Please enter a valid phone number</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="form-label">Portal Password *</label>
+                            <input type="password" id="password" name="password" class="form-input" required autocomplete="new-password" minlength="8">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 2: Address -->
+                <div class="form-section" id="section2" data-section="2">
+                    <h2 class="form-section-title">Address</h2>
+                    <div class="form-grid">
+                        <div class="form-group form-group-full" id="countryGroup">
+                            <label for="country" class="form-label">Country *</label>
+                            <input type="text" id="country" name="country" class="form-input" required list="countries" placeholder="Search country..." autocomplete="off" aria-autocomplete="list">
+                            <datalist id="countries">
+                                <option value="">Select Country</option>
+                            </datalist>
+                        </div>
+                        <div class="form-group" id="stateGroup" style="display: none;">
+                            <label for="state" class="form-label">State/Province *</label>
+                            <input type="text" id="state" name="state" class="form-input" required list="states" placeholder="Search state..." autocomplete="off" aria-autocomplete="list">
+                            <datalist id="states">
+                                <option value="">Select State/Province</option>
+                            </datalist>
+                        </div>
+                        <div class="form-group" id="cityGroup" style="display: none;">
+                            <label for="city" class="form-label">City *</label>
+                            <input type="text" id="city" name="city" class="form-input" required>
+                        </div>
+                        <div class="form-group" id="postalCodeGroup" style="display: none;">
+                            <label for="postalCode" class="form-label">Postal Code *</label>
+                            <input type="text" id="postalCode" name="postalCode" class="form-input" required>
+                        </div>
+                        <div class="form-group form-group-full" id="addressGroup" style="display: none;">
+                            <label for="localAddress" class="form-label">Enter local address (Optional)</label>
+                            <input type="text" id="localAddress" name="localAddress" class="form-input" placeholder="Street address, apartment, building, etc.">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 2: Schedule & Information -->
+                <div class="form-section" id="section2" data-section="2">
+                    <h2 class="form-section-title">Schedule & Information</h2>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="schedule" class="form-label">Preferred Schedule *</label>
+                            <select id="schedule" name="schedule" class="form-input" required>
+                                <option value="">Select Schedule</option>
+                                <option value="morning">Morning</option>
+                                <option value="afternoon">Afternoon</option>
+                                <option value="evening">Evening</option>
+                                <option value="weekend">Weekend</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="startDate" class="form-label">Preferred Start Date *</label>
+                            <input type="date" id="startDate" name="startDate" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="hearAboutUs" class="form-label">How did you hear about us? *</label>
+                            <select id="hearAboutUs" name="hearAboutUs" class="form-input" required>
+                                <option value="">Select an option</option>
+                                <option value="friend">Friend/Family</option>
+                                <option value="social-media">Social Media</option>
+                                <option value="google">Google Search</option>
+                                <option value="advertisement">Advertisement</option>
+                                <option value="school">School/University</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 3: English Level -->
+                <div class="form-section" id="section3" data-section="3">
+                    <h2 class="form-section-title">English Level</h2>
+                    <div class="form-grid">
+                        <div class="form-group form-group-full">
+                            <label class="form-label">Self-assessed Level *</label>
+                            <div class="radio-group" role="radiogroup" aria-required="true" aria-label="English level">
+                                <label class="radio-label">
+                                    <input type="radio" name="englishLevel" value="beginner" required>
+                                    <span class="radio-text">Beginner</span>
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="englishLevel" value="elementary">
+                                    <span class="radio-text">Elementary</span>
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="englishLevel" value="intermediate">
+                                    <span class="radio-text">Intermediate</span>
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="englishLevel" value="upper-intermediate">
+                                    <span class="radio-text">Upper-Intermediate</span>
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="englishLevel" value="advanced">
+                                    <span class="radio-text">Advanced</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 4: Additional -->
+                <div class="form-section" id="section4" data-section="4">
+                    <h2 class="form-section-title">Additional Information</h2>
+                    <div class="form-grid">
+                        <div class="form-group form-group-full">
+                            <label for="specialRequirements" class="form-label">Any special requirements or health conditions (Optional)</label>
+                            <textarea id="specialRequirements" name="specialRequirements" class="form-textarea" rows="3" placeholder="Please let us know if you have any special requirements..."></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Summary Panel -->
+                <div class="form-section summary-section" id="summarySection">
+                    <h2 class="form-section-title">Review Your Information</h2>
+                    <div class="summary-content" id="summaryContent">
+                        <p class="summary-placeholder">Complete all sections to see your enrollment summary</p>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary btn-lg" id="submitBtn">Submit Enrollment</button>
+                </div>
+            </form>
+
+            <!-- Data Note -->
+            <div class="data-note">
+                <p>Your application is saved securely for our management team. No automatic download is started.</p>
+            </div>
+
+            <!-- Enrollment Success Modal -->
+            <div id="enrollSuccess" class="enrollment-modal" role="dialog" aria-modal="true" aria-labelledby="enrollmentSuccessTitle" aria-describedby="enrollmentSuccessMessage" hidden>
+                <div class="enrollment-modal-card">
+                    <button type="button" id="closeEnrollmentModal" class="enrollment-modal-close" aria-label="Close success message">&times;</button>
+                    <div class="enrollment-success-icon" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path class="enrollment-checkmark" d="m5 12 4 4L19 6"></path>
+                        </svg>
+                    </div>
+                    <h2 id="enrollmentSuccessTitle">Enrollment Successful!</h2>
+                    <p id="enrollmentSuccessMessage">Thank you! Your application has been received. Our team will contact you within 24 hours.</p>
+                    <button type="button" id="returnHomeButton" class="btn btn-primary enrollment-return-home">Return to Home</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <script src="js/main.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>

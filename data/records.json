@@ -1,0 +1,64 @@
+{
+  "managementPersons": [
+    {
+      "id": "management-001",
+      "name": "Deepak Kumar",
+      "phone": "9973960072",
+      "email": "deepakdasug23102005@gmail.com",
+      "password": "deepakDasug@123",
+      "title": "manager"
+    },
+    {
+      "id": "MNG-001",
+      "name": "Deepak Kumar2",
+      "phone": "09973960072",
+      "email": "deepakdasug23102005@gmail.com",
+      "password": "deepakdasug23",
+      "title": "Manager"
+    }
+  ],
+  "students": [
+    {
+      "id": "STU-001",
+      "fullName": "Deepak Kumar",
+      "gender": "male",
+      "phoneNumber": "+91 9973960072",
+      "email": "deepak3@gmail.com",
+      "password": "dfuedhfhdfejofo",
+      "country": "India",
+      "state": "Bihar",
+      "city": "Nawada",
+      "postalCode": "805108",
+      "localAddress": "",
+      "schedule": "morning",
+      "startDate": "2026-09-22",
+      "hearAboutUs": "google",
+      "englishLevel": "beginner",
+      "specialRequirements": "",
+      "dateOfBirth": "2012-6-14",
+      "submissionDate": "2026-09-18T12:10:04.260Z",
+      "assignedManagerId": "management-001",
+      "assignedManagerName": "Deepak Kumar"
+    },
+    {
+      "id": "STU-002",
+      "fullName": "Deepak Kumar2",
+      "gender": "male",
+      "phoneNumber": "+91 9973960072",
+      "email": "deepak4@gmail.com",
+      "password": "jdgfewojde",
+      "country": "India",
+      "state": "Bihar",
+      "city": "Nawada",
+      "postalCode": "805108",
+      "localAddress": "",
+      "schedule": "morning",
+      "startDate": "2026-09-02",
+      "hearAboutUs": "social-media",
+      "englishLevel": "beginner",
+      "specialRequirements": "",
+      "dateOfBirth": "2010-10-16",
+      "submissionDate": "2026-09-18T12:13:09.782Z"
+    }
+  ]
+}

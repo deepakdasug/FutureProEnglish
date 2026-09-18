@@ -1,0 +1,12 @@
+# Local credentials and runtime data
+data/records.json
+
+# Dependencies and generated files
+node_modules/
+npm-debug.log*
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

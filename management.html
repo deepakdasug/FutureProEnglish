@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Management Dashboard - Future Pro English</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/form.css">
+    <script src="https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <main id="main-content">
+        <header class="header">
+            <div class="container header-content">
+                <a href="index.html" class="logo" aria-label="Future Pro English Home">
+                    <div class="logo-icon">E</div>
+                    <span class="logo-text">Future Pro English</span>
+                </a>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="enroll.html" class="nav-link">Enroll</a>
+                    <a href="login.html" class="nav-link">Login</a>
+                </nav>
+            </div>
+        </header>
+        <section class="section management-dashboard">
+            <div class="container">
+                <div class="dashboard-header">
+                    <div>
+                        <p class="management-eyebrow">Management dashboard</p>
+                        <h1 class="page-title">Student records</h1>
+                        <p id="managementWelcome" class="page-subtitle"></p>
+                    </div>
+                    <button type="button" id="logoutManagement" class="btn">Log out</button>
+                </div>
+                <div class="dashboard-actions">
+                    <button type="button" id="showStudentData" class="btn btn-primary">Show Student Data</button>
+                    <button type="button" id="downloadStudentData" class="btn">Download Data</button>
+                    <button type="button" id="assignManagementPerson" class="btn">Assign Management Person</button>
+                    <button type="button" id="enrollStudent" class="btn">Enroll Student</button>
+                </div>
+                <form id="managementPersonForm" class="management-person-form" hidden>
+                    <h2 class="management-panel-title">Assign Management Person</h2>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="managementName" class="form-label">Name *</label>
+                            <input id="managementName" name="name" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="managementPhone" class="form-label">Phone *</label>
+                            <input id="managementPhone" name="phone" type="tel" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="managementEmail" class="form-label">Email *</label>
+                            <input id="managementEmail" name="email" type="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="managementPassword" class="form-label">Password *</label>
+                            <input id="managementPassword" name="password" type="password" class="form-input" required minlength="8">
+                        </div>
+                        <div class="form-group">
+                            <label for="managementTitle" class="form-label">Title *</label>
+                            <input id="managementTitle" name="title" class="form-input" placeholder="Manager" required>
+                        </div>
+                    </div>
+                    <div class="form-actions management-form-actions">
+                        <button type="submit" class="btn btn-primary">Save Management Person</button>
+                        <button type="button" id="cancelManagementPerson" class="btn">Cancel</button>
+                    </div>
+                </form>
+                <div id="studentDataTableWrapper" class="student-data-table-wrapper" hidden>
+                    <table class="student-data-table">
+                        <caption class="visually-hidden">Saved student enrollment data</caption>
+                        <thead id="studentDataTableHead"></thead>
+                        <tbody id="studentDataTableBody"></tbody>
+                    </table>
+                    <p id="studentDataEmpty" class="student-data-empty" hidden>No student enrollment records found.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/management.js"></script>
+</body>
+</html>
