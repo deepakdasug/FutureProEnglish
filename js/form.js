@@ -690,7 +690,7 @@ document.addEventListener('DOMContentLoaded', function() {
             try {
                 // Hide the form and show success message
                 enrollmentFormSubmit.style.display = 'none';
-                enrollmentSuccessMessage.textContent = `Thank you, ${data.fullName || 'there'}! Your application has been received. Our team will contact you within 24 hours.`;
+                enrollmentSuccessMessage.textContent = 'Thank you for enrolling, our team will connect with you soon.';
                 enrollSuccess.hidden = false;
                 document.body.classList.add('modal-open');
 

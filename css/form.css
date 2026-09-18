@@ -1003,6 +1003,15 @@ html {
     letter-spacing: -0.035em;
 }
 
+.enrollment-success-kicker {
+    margin: 0 0 8px;
+    color: #A78BFA;
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-semibold);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
 .enrollment-modal-card p {
     margin: 0 auto 28px;
     color: #A1A1AA;
