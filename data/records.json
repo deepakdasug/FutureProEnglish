@@ -15,6 +15,14 @@
       "email": "deepakdasug23102005@gmail.com",
       "password": "deepakdasug23",
       "title": "Manager"
+    },
+    {
+      "id": "MNG-002",
+      "name": "Deepak Kumar",
+      "phone": "9973960072",
+      "email": "deepakdasug23102005@gmail.com",
+      "password": "deepakD@99",
+      "title": "Manager"
     }
   ],
   "students": [
