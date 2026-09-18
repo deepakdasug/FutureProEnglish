@@ -62,6 +62,7 @@ The server also exposes the local network preview address printed in the termina
 ├── data/                   # Local development data store
 ├── js/                     # Frontend behavior and JSON data
 ├── about.html              # About page
+├── api/                    # Vercel serverless API functions
 ├── contact.html            # Contact page
 ├── enroll.html             # Enrollment workflow
 ├── index.html              # Homepage
@@ -79,6 +80,8 @@ The server removes passwords from API responses, but passwords are still stored 
 ## Deployment Notes
 
 This project can run on any host that supports Node.js. For production deployment, add environment-based configuration, HTTPS, input validation, rate limiting, secure password hashing, a database, and a production process manager.
+
+The demo includes a Vercel-compatible `api/authenticate.js` serverless function. It supports student and management login by email or phone without requiring `server.js`, so the login flow can run after deploying this repository directly to Vercel. The demo still reads credentials from `data/records.json`; enrollment writes and other mutating API routes require a persistent database for Vercel deployment.
 
 ## License
 
